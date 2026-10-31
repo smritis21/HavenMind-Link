@@ -54,30 +54,30 @@ Each screen has its own accent colour, used again in the feature and role sectio
 
 <img src="https://img.shields.io/badge/01-Landing%20page-6366f1?style=flat-square&labelColor=0b0d12" alt="Landing page">
 
-<a href="assets/landing.png"><img src="assets/landing.png" alt="HavenMind landing page: Your Mental Wellness Matters, with sign-in and get-started actions" width="100%"></a>
+<p align="center"><a href="assets/landing.png"><img src="assets/landing.png" alt="HavenMind landing page: Your Mental Wellness Matters, with sign-in and get-started actions" width="80%"></a></p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <img src="https://img.shields.io/badge/02-Student%20dashboard-3b82f6?style=flat-square&labelColor=0b0d12" alt="Student dashboard"><br>
-<a href="assets/student-dashboard.png"><img src="assets/student-dashboard.png" alt="Student dashboard with cognitive load, mood trend, support network, wellness streak and AI wellness coach" width="100%"></a>
+<p align="center"><a href="assets/student-dashboard.png"><img src="assets/student-dashboard.png" alt="Student dashboard with cognitive load, mood trend, support network, wellness streak and AI wellness coach" width="80%"></a></p>
 <sub>Cognitive load, mood trend, support network and wellness streak, with an AI wellness coach and quick actions.</sub>
 </td>
 <td width="50%" valign="top">
 <img src="https://img.shields.io/badge/03-AI%20journal-22c55e?style=flat-square&labelColor=0b0d12" alt="AI journal"><br>
-<a href="assets/journal.png"><img src="assets/journal.png" alt="AI-powered journal with mood detection, emotion balance and AI insights" width="100%"></a>
+<p align="center"><a href="assets/journal.png"><img src="assets/journal.png" alt="AI-powered journal with mood detection, emotion balance and AI insights" width="80%"></a></p>
 <sub>Sentiment-aware journaling with emotion balance, AI insights, voice entries and emergency-contact alerts.</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <img src="https://img.shields.io/badge/04-Smart%20calendar-a855f7?style=flat-square&labelColor=0b0d12" alt="Smart calendar"><br>
-<a href="assets/calendar.png"><img src="assets/calendar.png" alt="Smart calendar with stress forecasting and AI wellness recommendations" width="100%"></a>
+<p align="center"><a href="assets/calendar.png"><img src="assets/calendar.png" alt="Smart calendar with stress forecasting and AI wellness recommendations" width="80%"></a></p>
 <sub>Stress forecasting from upcoming events, with time-proximity escalation and suggested wellness breaks.</sub>
 </td>
 <td width="50%" valign="top">
 <img src="https://img.shields.io/badge/05-Support%20hub-f97316?style=flat-square&labelColor=0b0d12" alt="Support hub"><br>
-<a href="assets/support.png"><img src="assets/support.png" alt="Support hub with peer, counselor and AI support options and always-visible crisis contacts" width="100%"></a>
+<p align="center"><a href="assets/support.png"><img src="assets/support.png" alt="Support hub with peer, counselor and AI support options and always-visible crisis contacts" width="80%"></a></p>
 <sub>Peer, counselor and AI support in one place, with crisis contacts always on screen.</sub>
 </td>
 </tr>
@@ -85,7 +85,7 @@ Each screen has its own accent colour, used again in the feature and role sectio
 
 <img src="https://img.shields.io/badge/06-Counseling%20session-14b8a6?style=flat-square&labelColor=0b0d12" alt="Counseling session">
 
-<a href="assets/counselor.png"><img src="assets/counselor.png" alt="Secure professional counseling chat and appointment history" width="100%"></a>
+<p align="center"><a href="assets/counselor.png"><img src="assets/counselor.png" alt="Secure professional counseling chat and appointment history" width="80%"></a></p>
 
 <sub>A confidential professional chat session, plus scheduled and completed appointment history.</sub>
 
