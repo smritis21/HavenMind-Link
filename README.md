@@ -1,472 +1,347 @@
-# 🧠 HavenMind Link - AI Sentinel for Student Wellbeing
+<a href="https://github.com/smritis21/HavenMind-Link"><img src="assets/banner.png" alt="HavenMind Link: AI Sentinel for Student Wellbeing. Anonymous peer support, crisis escalation, Gemini-powered, privacy first." width="100%"></a>
 
-<div align="center">
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3.8%2B-6366f1?style=flat-square&labelColor=0b0d12&logo=python&logoColor=white" alt="Python 3.8+">
+<img src="https://img.shields.io/badge/Flask-2.3.3-3b82f6?style=flat-square&labelColor=0b0d12&logo=flask&logoColor=white" alt="Flask 2.3.3">
+<img src="https://img.shields.io/badge/Gemini-2.5%20Flash-22c55e?style=flat-square&labelColor=0b0d12&logo=googlegemini&logoColor=white" alt="Gemini 2.5 Flash">
+<img src="https://img.shields.io/badge/Tailwind-CSS-a855f7?style=flat-square&labelColor=0b0d12&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Hackspire%202025-1st%20place-f97316?style=flat-square&labelColor=0b0d12" alt="1st place, Hackspire 2025">
+<img src="https://img.shields.io/badge/License-MIT-14b8a6?style=flat-square&labelColor=0b0d12" alt="MIT License">
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Flask](https://img.shields.io/badge/Flask-2.3.3-green.svg)](https://flask.palletsprojects.com/)
-[![Gemini AI](https://img.shields.io/badge/Gemini-AI-orange.svg)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/yourusername/havenmind-link?style=social)](https://github.com/yourusername/havenmind-link/stargazers)
+<p align="center">
+<a href="#overview">Overview</a> · <a href="#screenshots">Screenshots</a> · <a href="#features">Features</a> · <a href="#roles">Roles</a> · <a href="#tech-stack">Tech stack</a> · <a href="#quick-start">Quick start</a> · <a href="#configuration">Configuration</a> · <a href="#testing">Testing</a> · <a href="#crisis-resources">Crisis resources</a> · <a href="#roadmap">Roadmap</a> · <a href="#contact">Contact</a>
+</p>
 
-### 🏆 **1st Place Winner - Capstone Project Competition** 🏆
+* * *
 
-*A comprehensive AI-powered mental health ecosystem designed specifically for students, featuring real-time behavioral monitoring, anonymous peer support, and crisis intervention capabilities.*
+**HavenMind Link** is an AI-assisted student wellbeing platform that brings **students, peer supporters, professional counselors and institutional administrators** into one support system. It uses Google Gemini for sentiment analysis of journal entries, personalised wellness guidance and early crisis signals, while keeping a human in the loop for anything serious. Winner of **1st place at Hackspire 2025**, and the platform behind the research paper *Explainable Behavioural Stress Modelling for Student Wellbeing: The QARM-SL Framework and HavenMind Link Platform* (ICCCMIT 2026).
 
-</div>
+<img src="assets/stats.png" alt="5 role dashboards, 6 core screens shown, Gemini 2.5 Flash for sentiment, 1st place at Hackspire 2025" width="100%">
 
+## Overview
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 🌟 **Project Overview**
+**The problem**
 
-**HavenMind Link** is a revolutionary mental health platform that combines cutting-edge AI technology with human-centered design to create a comprehensive support ecosystem for students. Our platform addresses the growing mental health crisis in educational institutions through innovative technology and compassionate care.
+- 1 in 4 students experience mental health challenges
+- Around 60% don't seek help because of stigma
+- 24/7 support is rarely available on campus
+- Early intervention systems are rare
 
-### 🎯 **Problem Statement**
-- **1 in 4 students** experience mental health challenges
-- **60% of students** don't seek help due to stigma
-- **Limited 24/7 support** availability on campuses
-- **Lack of early intervention** systems
+</td>
+<td width="50%" valign="top">
 
-### 💡 **Our Solution**
-A multi-role platform that provides:
-- **Real-time AI monitoring** for early intervention
-- **Anonymous peer support** to reduce stigma
-- **Professional crisis management** for serious cases
-- **Institutional analytics** for resource planning
+**The approach**
 
----
+- Real-time AI monitoring for early intervention
+- Anonymous peer support to lower the stigma barrier
+- Professional crisis management for serious cases
+- Institution-level analytics for resource planning
 
-## ✨ **Key Features**
+</td>
+</tr>
+</table>
 
-### 🤖 **Advanced AI Integration**
-- **Google Gemini AI** for sentiment analysis & therapeutic responses
-- **Real-time cognitive load assessment** with 72% accuracy
-- **Crisis detection algorithms** with automatic emergency alerts
-- **Predictive stress modeling** based on calendar events and journal patterns
-- **Natural language processing** for contextual understanding
+* * *
 
-### 👥 **Multi-Role Dashboard System**
+## Screenshots
 
-#### 🎓 **Student Dashboard**
-- AI wellness coach with personalized insights
-- Cognitive load monitoring (real-time stress tracking)
-- Mood trend analysis with weekly improvements
-- Anonymous peer chat system
-- Crisis support with emergency contacts
-- Voice-enabled calendar with stress forecasting
+Each screen has its own accent colour, used again in the feature and role sections below.
 
-#### 🤝 **Peer Supporter Dashboard**
-- Priority-sorted support request queue
-- AI-assisted response suggestions
-- Crisis escalation tools
-- Case history tracking
-- Anonymous chat management
+<img src="https://img.shields.io/badge/01-Landing%20page-6366f1?style=flat-square&labelColor=0b0d12" alt="Landing page">
 
-#### 👨⚕️ **Professional Counselor Dashboard**
-- Crisis intervention management
-- Student profile analysis
-- Session management with confidential notes
-- Emergency response capabilities
-- Appointment scheduling system
+<a href="assets/landing.png"><img src="assets/landing.png" alt="HavenMind landing page: Your Mental Wellness Matters, with sign-in and get-started actions" width="100%"></a>
 
-#### 🏛️ **Institution Admin Dashboard**
-- University-wide wellness analytics
-- Department-level insights
-- Crisis alert coordination
-- Resource allocation guidance
-- Trend analysis and reporting
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="https://img.shields.io/badge/02-Student%20dashboard-3b82f6?style=flat-square&labelColor=0b0d12" alt="Student dashboard"><br>
+<a href="assets/student-dashboard.png"><img src="assets/student-dashboard.png" alt="Student dashboard with cognitive load, mood trend, support network, wellness streak and AI wellness coach" width="100%"></a>
+<sub>Cognitive load, mood trend, support network and wellness streak, with an AI wellness coach and quick actions.</sub>
+</td>
+<td width="50%" valign="top">
+<img src="https://img.shields.io/badge/03-AI%20journal-22c55e?style=flat-square&labelColor=0b0d12" alt="AI journal"><br>
+<a href="assets/journal.png"><img src="assets/journal.png" alt="AI-powered journal with mood detection, emotion balance and AI insights" width="100%"></a>
+<sub>Sentiment-aware journaling with emotion balance, AI insights, voice entries and emergency-contact alerts.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="https://img.shields.io/badge/04-Smart%20calendar-a855f7?style=flat-square&labelColor=0b0d12" alt="Smart calendar"><br>
+<a href="assets/calendar.png"><img src="assets/calendar.png" alt="Smart calendar with stress forecasting and AI wellness recommendations" width="100%"></a>
+<sub>Stress forecasting from upcoming events, with time-proximity escalation and suggested wellness breaks.</sub>
+</td>
+<td width="50%" valign="top">
+<img src="https://img.shields.io/badge/05-Support%20hub-f97316?style=flat-square&labelColor=0b0d12" alt="Support hub"><br>
+<a href="assets/support.png"><img src="assets/support.png" alt="Support hub with peer, counselor and AI support options and always-visible crisis contacts" width="100%"></a>
+<sub>Peer, counselor and AI support in one place, with crisis contacts always on screen.</sub>
+</td>
+</tr>
+</table>
 
-#### 🌍 **NGO Dashboard**
-- Community outreach integration
-- Resource coordination
-- Volunteer management
+<img src="https://img.shields.io/badge/06-Counseling%20session-14b8a6?style=flat-square&labelColor=0b0d12" alt="Counseling session">
 
-### 🔒 **Privacy-First Design**
-- **End-to-end encryption** with complete anonymity options
-- **HIPAA-compliant** security standards
-- **Local-first processing** to protect sensitive data
-- **Zero data retention** policy for sensitive conversations
-- **Secure authentication** with role-based access control
+<a href="assets/counselor.png"><img src="assets/counselor.png" alt="Secure professional counseling chat and appointment history" width="100%"></a>
 
----
+<sub>A confidential professional chat session, plus scheduled and completed appointment history.</sub>
 
-## 🚀 **Quick Start Guide**
+* * *
 
-### 📋 **Prerequisites**
-- Python 3.8 or higher
-- pip package manager
-- Git (for cloning)
+## Features
 
-### ⚡ **Installation**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/havenmind-link.git
-   cd havenmind-link
-   ```
+<img src="https://img.shields.io/badge/-AI%20integration-22c55e?style=flat-square&labelColor=0b0d12" alt="AI integration">
 
-2. **Set up the main application**
-   ```bash
-   cd havenmind-basic
-   pip install -r requirements.txt
-   ```
+- **Google Gemini** for sentiment analysis and therapeutic responses
+- **Real-time cognitive load analysis** from journal and calendar signals
+- **Crisis detection** with automatic emergency alerts
+- **Predictive stress modelling** from calendar events and journal patterns
+- **NLP** for contextual understanding, with a simple fallback AI when the API is unavailable
 
-3. **Configure environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your API keys (see Configuration section)
-   ```
+</td>
+<td width="50%" valign="top">
 
-4. **Initialize the database**
-   ```bash
-   python app.py
-   # Database will be created automatically on first run
-   ```
+<img src="https://img.shields.io/badge/-Privacy%20first-14b8a6?style=flat-square&labelColor=0b0d12" alt="Privacy first">
 
-5. **Access the application**
-   - Open http://localhost:5000 in your browser
-   - Create an account or use demo credentials
-   - Explore different user roles and features
+- **Anonymous peer chat** with full identity protection
+- **HIPAA-aligned** privacy safeguards
+- **Role-based access control** and secure sessions
+- **Human in the loop**: the AI suggests, people decide
+- Crisis cases escalate to professionals, never stay with the bot
 
-### 🎮 **Demo Accounts**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/-Smart%20calendar-a855f7?style=flat-square&labelColor=0b0d12" alt="Smart calendar">
+
+- Voice input: *"Math exam tomorrow 9 AM"*
+- Automatic stress level per event (minimal, low, medium, high, critical)
+- Stress escalates as the deadline gets closer
+- AI-suggested wellness breaks, one tap to schedule
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/-Peer%20support-f97316?style=flat-square&labelColor=0b0d12" alt="Peer support">
+
+- Priority-sorted request queue for supporters
+- AI-assisted response suggestions and risk flags
+- Escalation recommendations and case history
+- Anonymous chat management, available around the clock
+
+</td>
+</tr>
+</table>
+
+* * *
+
+## Roles
+
+| | Role | What they get |
+| --- | --- | --- |
+| <img src="https://img.shields.io/badge/-%20-3b82f6?style=flat-square" alt="blue"> | **Student** | AI wellness coach, real-time cognitive load, mood trends, voice-enabled calendar with stress forecasting, anonymous peer chat, crisis support with emergency contacts |
+| <img src="https://img.shields.io/badge/-%20-f97316?style=flat-square" alt="orange"> | **Peer supporter** | Priority-sorted support queue, AI-assisted replies, crisis escalation tools, case history |
+| <img src="https://img.shields.io/badge/-%20-14b8a6?style=flat-square" alt="teal"> | **Professional counselor** | Crisis intervention management, student profile analysis, confidential session notes, appointment scheduling |
+| <img src="https://img.shields.io/badge/-%20-6366f1?style=flat-square" alt="indigo"> | **Institution admin** | University-wide wellness analytics, department-level insights, crisis alert coordination, resource allocation guidance |
+| <img src="https://img.shields.io/badge/-%20-a855f7?style=flat-square" alt="purple"> | **NGO** | Community outreach integration, resource coordination, volunteer management |
+
+* * *
+
+## Tech stack
+
+| | |
+| --- | --- |
+| **Backend** | ![Python](https://img.shields.io/badge/-Python%203.8%2B-3776AB?style=flat-square&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask%202.3.3-000000?style=flat-square&logo=flask&logoColor=white) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Werkzeug](https://img.shields.io/badge/-Werkzeug-3B82F6?style=flat-square) |
+| **AI** | ![Gemini](https://img.shields.io/badge/-Gemini%202.5%20Flash-22c55e?style=flat-square&logo=googlegemini&logoColor=white) ![NLP](https://img.shields.io/badge/-NLP-6366f1?style=flat-square) ![Sentiment](https://img.shields.io/badge/-Sentiment%20analysis-a855f7?style=flat-square) ![Forecasting](https://img.shields.io/badge/-Stress%20forecasting-f97316?style=flat-square) |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
+| **Optional** | ![Twilio](https://img.shields.io/badge/-Twilio%20SMS-F22F46?style=flat-square&logo=twilio&logoColor=white) ![SMTP](https://img.shields.io/badge/-SMTP%20email-14b8a6?style=flat-square) |
+
+* * *
+
+## Quick start
+
+**Prerequisites:** Python 3.8+, pip and Git.
+
+```bash
+# 1. Clone
+git clone https://github.com/smritis21/HavenMind-Link.git
+cd HavenMind-Link/havenmind-basic
+
+# 2. Install
+pip install -r requirements.txt
+
+# 3. Configure (see the next section)
+cp .env.example .env
+
+# 4. Run (the database is created on first run)
+python app.py
 ```
-Student: demo_student / password123
-Peer Supporter: demo_peer / password123
-Counselor: demo_counselor / password123
-Admin: demo_admin / password123
-```
 
----
+Open <http://localhost:5000>, create an account or use a demo login.
 
-## 🏗️ **Project Architecture**
+<details>
+<summary><b>Demo accounts</b></summary>
+
+| Role | Username | Password |
+| --- | --- | --- |
+| Student | `demo_student` | `password123` |
+| Peer supporter | `demo_peer` | `password123` |
+| Counselor | `demo_counselor` | `password123` |
+| Admin | `demo_admin` | `password123` |
+
+These are for local demos only. Change them before deploying anywhere.
+
+</details>
+
+<details>
+<summary><b>Project structure</b></summary>
 
 ```
 havenmind-link/
-├── 📁 havenmind-basic/              # Main Flask Application
-│   ├── 🐍 app.py                   # Core application (2000+ lines)
-│   ├── 📁 templates/               # HTML templates for all roles
-│   │   ├── 📁 auth/               # Authentication pages
-│   │   ├── 📁 dashboards/         # Role-specific dashboards
-│   │   └── 📄 *.html              # Main pages
-│   ├── 📁 static/                 # CSS, JS, and assets
-│   │   ├── 🎨 style.css           # Main stylesheet
-│   │   ├── 📁 js/                 # JavaScript files
-│   │   └── 🖼️ logo.PNG            # Application logo
-│   ├── 🔔 notification_system.py  # Crisis alert system
-│   ├── 🤖 simple_ai.py            # Fallback AI responses
-│   ├── 📅 daily_scheduler.py      # Wellness reminders
-│   ├── 📋 requirements.txt        # Python dependencies
-│   └── ⚙️ .env.example            # Environment configuration
-├── 📁 havenmind-backend/           # Advanced Backend Features
-│   ├── 📁 app/                    # Backend application
-│   ├── 📁 utils/                  # AI and ML utilities
-│   └── 📋 requirements.txt        # Backend dependencies
-├── 📁 docs/                       # Documentation
-│   ├── 📖 README_GEMINI_INTEGRATION.md
-│   ├── 📊 PRESENTATION_DOCUMENTATION.md
-│   └── 🔧 *.md                    # Various guides
-├── 📄 README.md                   # This file
-├── 📜 LICENSE                     # MIT License
-└── 🚫 .gitignore                  # Git ignore rules
+├── havenmind-basic/               # Main Flask application
+│   ├── app.py                     # Core application (2000+ lines)
+│   ├── templates/                 # HTML templates for all roles
+│   │   ├── auth/                  # Authentication pages
+│   │   ├── dashboards/            # Role-specific dashboards
+│   │   └── *.html                 # Main pages
+│   ├── static/                    # CSS, JS and assets
+│   ├── notification_system.py     # Crisis alert system
+│   ├── simple_ai.py               # Fallback AI responses
+│   ├── daily_scheduler.py         # Wellness reminders
+│   ├── requirements.txt           # Python dependencies
+│   └── .env.example               # Environment configuration
+├── havenmind-backend/             # Advanced backend features
+│   ├── app/                       # Backend application
+│   ├── utils/                     # AI and ML utilities
+│   └── requirements.txt
+├── docs/                          # Documentation and guides
+├── README.md
+├── LICENSE                        # MIT
+└── .gitignore
 ```
 
----
+</details>
 
-## 💻 **Technology Stack**
+* * *
 
-### **Backend Technologies**
-- **🐍 Python 3.8+** - Core programming language
-- **🌶️ Flask 2.3.3** - Web framework
-- **🗄️ SQLite** - Database for development
-- **🤖 Google Gemini AI** - Advanced NLP and sentiment analysis
-- **🔐 Werkzeug** - Security and authentication
+## Configuration
 
-### **Frontend Technologies**
-- **🎨 HTML5 & CSS3** - Structure and styling
-- **⚡ JavaScript (ES6+)** - Interactive functionality
-- **🎨 Tailwind CSS** - Utility-first CSS framework
-- **📱 Responsive Design** - Mobile-first approach
-
-### **AI & Machine Learning**
-- **🧠 Google Gemini 2.5 Flash** - Primary AI model
-- **📊 Sentiment Analysis** - Emotion detection
-- **🔍 Natural Language Processing** - Text understanding
-- **📈 Predictive Analytics** - Stress forecasting
-
-### **Security & Privacy**
-- **🔒 AES-256 Encryption** - Data protection
-- **🛡️ HIPAA Compliance** - Healthcare standards
-- **🔐 Secure Sessions** - User authentication
-- **🚫 Zero Logging** - Privacy protection
-
----
-
-## 🎯 **Detailed Feature Breakdown**
-
-### 🎓 **Student Experience**
-
-#### **AI Wellness Coach**
-- Personalized daily insights based on journal entries
-- Mood pattern recognition and trend analysis
-- Stress level monitoring with actionable recommendations
-- Therapeutic response generation using Gemini AI
-
-#### **Smart Calendar Integration**
-- Voice input: "Math exam tomorrow 9 AM"
-- Automatic stress level assignment (minimal/low/medium/high/critical)
-- Time-proximity stress escalation
-- AI-suggested wellness breaks
-
-#### **Anonymous Peer Support**
-- Complete identity protection
-- 24/7 peer supporter availability
-- Crisis escalation to professionals
-- AI-assisted conversation guidance
-
-### 🤝 **Peer Supporter Tools**
-
-#### **Intelligent Queue Management**
-- Priority sorting based on urgency
-- AI-powered risk assessment
-- Response time tracking
-- Case history management
-
-#### **AI Response Assistant**
-- Contextual response suggestions
-- Crisis warning detection
-- Escalation recommendations
-- Training resource integration
-
-### 👨⚕️ **Professional Features**
-
-#### **Crisis Intervention System**
-- Real-time crisis alerts
-- Emergency contact automation
-- Professional handoff protocols
-- Confidential case management
-
-#### **Analytics Dashboard**
-- Student wellness trends
-- Risk factor identification
-- Intervention effectiveness tracking
-- Resource utilization analysis
-
----
-
-## ⚙️ **Configuration Guide**
-
-### 🔑 **Environment Variables**
-
-Create a `.env` file in the `havenmind-basic/` directory:
+Create a `.env` file inside `havenmind-basic/`:
 
 ```env
-# 🤖 AI Configuration
+# AI
 GEMINI_API_KEY=your_gemini_api_key_here
 
-# 🌶️ Flask Configuration
+# Flask
 FLASK_ENV=development
 SECRET_KEY=your_super_secret_key_here
 FLASK_DEBUG=True
 
-# 🗄️ Database Configuration
+# Database
 DATABASE_URL=sqlite:///havenmind.db
 
-# 📱 SMS Configuration (Optional)
+# SMS (optional)
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_token
 TWILIO_PHONE_NUMBER=your_twilio_phone
 
-# 📧 Email Configuration (Optional)
+# Email (optional)
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 EMAIL_ADDRESS=your_email@example.com
 EMAIL_PASSWORD=your_app_password
 ```
 
-### 🔑 **API Keys Setup**
+| Key | Where to get it |
+| --- | --- |
+| <img src="https://img.shields.io/badge/-Gemini-22c55e?style=flat-square" alt="Gemini"> | Create an API key in [Google AI Studio](https://aistudio.google.com/app/apikey) and paste it into `.env` |
+| <img src="https://img.shields.io/badge/-Twilio-f97316?style=flat-square" alt="Twilio"> | Optional. Sign up at [Twilio](https://www.twilio.com/) for the SID, token and number to enable SMS alerts |
+| <img src="https://img.shields.io/badge/-SMTP-14b8a6?style=flat-square" alt="SMTP"> | Optional. A Gmail app password or any SMTP service enables emergency emails |
 
-1. **🤖 Gemini AI API Key**
-   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-   - Sign in with your Google account
-   - Create a new API key
-   - Copy and paste into `.env` file
+Never commit your real `.env`. The `.gitignore` already excludes it.
 
-2. **📱 Twilio SMS (Optional)**
-   - Sign up at [Twilio](https://www.twilio.com/)
-   - Get Account SID, Auth Token, and Phone Number
-   - Add to `.env` file for SMS notifications
+* * *
 
-3. **📧 Email SMTP (Optional)**
-   - Use Gmail App Password or other SMTP service
-   - Configure for emergency email notifications
+## Testing
 
----
-
-## 🧪 **Testing & Quality Assurance**
-
-### **Automated Testing**
 ```bash
-# Run comprehensive test suite
-python run_tests.py
-
-# Test specific components
+python run_tests.py                  # full suite
 python test_gemini_integration.py    # AI functionality
-python test_crisis_detection.py      # Crisis detection
-python test_security_fix.py          # Security features
+python test_crisis_detection.py      # crisis detection
+python test_security_fix.py          # security features
 ```
 
-### **Manual Testing Scenarios**
-- User registration and authentication
-- Role-based dashboard access
-- AI sentiment analysis accuracy
-- Crisis detection and escalation
-- Anonymous chat functionality
-- Emergency notification system
+Manual scenarios worth walking through: registration and login, role-based dashboard access, sentiment analysis accuracy, crisis detection and escalation, anonymous chat, and the emergency notification flow.
 
----
+* * *
 
-## 🚨 **Crisis Support Resources**
+## Crisis resources
 
-### **🆘 Immediate Emergency Help**
-- **🚨 Emergency Services**: 112 or 100
-- **☎️ AASRA Suicide Prevention**: 91-9820466726
-- **📞 Vandrevala Foundation**: 1860-2662-345
-- **📱 iCall Helpline**: 022-25521111
-- **🌐 Crisis Text Line**: Text HOME to 741741
+<table>
+<tr>
+<td valign="top">
 
-### **🛡️ Platform Crisis Features**
-- 24/7 anonymous crisis chat
-- Automatic professional escalation
-- Emergency contact notifications
-- Campus counseling center integration
-- Real-time crisis detection algorithms
+<img src="https://img.shields.io/badge/-If%20you%20need%20help%20now-ef4444?style=flat-square&labelColor=0b0d12" alt="If you need help now">
 
----
+**These numbers are for India, where the platform was built and demoed.** If you are elsewhere, please contact your local emergency number or crisis line.
 
-## 🔮 **Future Development Roadmap**
+- Emergency services: **112**
+- AASRA suicide prevention: **91-9820466726**
+- Vandrevala Foundation: **1860-2662-345**
+- iCall helpline: **022-25521111**
 
-### **📅 Phase 1: Enhanced AI (Next 6 months)**
-- 🧠 Custom machine learning model training
-- 🔍 Predictive mental health risk assessment
-- 📊 Advanced behavioral pattern recognition
-- 🗣️ Voice journal integration
-- 🌐 Multi-language support
+HavenMind Link supports, and does not replace, professional mental health care.
 
-### **📅 Phase 2: Enterprise Scale (6-12 months)**
-- 🏫 Multi-university deployment
-- 🔗 Integration with existing campus systems
-- 👥 Professional counselor network expansion
-- 📱 Mobile application development
-- ☁️ Cloud infrastructure migration
+</td>
+</tr>
+</table>
 
-### **📅 Phase 3: Research & Innovation (12+ months)**
-- 🔬 Academic research partnerships
-- 📈 Mental health outcome studies
-- 🤖 AI model validation and improvement
-- 📋 Policy and compliance framework
-- 🌍 Global expansion strategy
+* * *
 
----
+## Roadmap
 
-## 🤝 **Contributing to HavenMind**
+| Phase | Timeline | Focus |
+| --- | --- | --- |
+| <img src="https://img.shields.io/badge/-1-3b82f6?style=flat-square" alt="1"> | Next 6 months | Custom ML model training, predictive risk assessment, behavioural pattern recognition, voice journal, multi-language support |
+| <img src="https://img.shields.io/badge/-2-a855f7?style=flat-square" alt="2"> | 6 to 12 months | Multi-university deployment, campus system integrations, counselor network, mobile app, cloud migration |
+| <img src="https://img.shields.io/badge/-3-f97316?style=flat-square" alt="3"> | 12+ months | Academic research partnerships, outcome studies, model validation, policy and compliance framework |
 
-We welcome contributions from developers, mental health professionals, and students!
+* * *
 
-### **🚀 Getting Started**
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Add tests for new functionality
-5. Commit your changes (`git commit -m 'Add amazing feature'`)
-6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+## Contributing
 
-### **📋 Contribution Guidelines**
-- Follow existing code style and conventions
-- Add comprehensive tests for new features
-- Update documentation for any changes
-- Ensure all tests pass before submitting
-- Respect privacy and security standards
+Contributions from developers, mental health professionals and students are welcome.
 
-### **🎯 Areas for Contribution**
-- 🐛 Bug fixes and performance improvements
-- ✨ New features and enhancements
-- 📖 Documentation improvements
-- 🧪 Test coverage expansion
-- 🎨 UI/UX improvements
-- 🌐 Internationalization
+1. Fork the repository and create a branch: `git checkout -b feature/amazing-feature`
+2. Make your changes and add tests for new functionality
+3. Commit, push and open a pull request: `git commit -m "Add amazing feature"`
 
----
+Please follow the existing code style, update the docs for any change, make sure the tests pass, and respect privacy and security standards. Useful areas: bug fixes, new features, docs, test coverage, UI/UX and internationalisation.
 
-## 📄 **License & Legal**
+## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+Released under the [MIT License](LICENSE).
 
-### **📋 Terms of Use**
-- ✅ Free for educational and non-commercial use
-- ✅ Modification and distribution allowed
-- ✅ Private and commercial use permitted
-- ❌ No warranty or liability
-- ❌ Must include original license
+* * *
 
----
+## Contact
 
-## 🙏 **Acknowledgments & Credits**
+Built by **Smriti Sridhar**, MSc Artificial Intelligence at Leiden University. Open to working-student roles, research collaborations and conversations about AI systems for wellbeing.
 
-### **🤖 Technology Partners**
-- **Google Gemini AI** for advanced NLP capabilities
-- **Flask Community** for the robust web framework
-- **Tailwind CSS** for the design system
+<p>
+<a href="https://smriti-sridhar.web.app/"><img src="https://img.shields.io/badge/Portfolio-visit%20site-6366f1?style=flat-square&labelColor=0b0d12" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/smriti-s-72647827b/"><img src="https://img.shields.io/badge/LinkedIn-Smriti%20Sridhar-3b82f6?style=flat-square&labelColor=0b0d12&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/smritis21"><img src="https://img.shields.io/badge/GitHub-smritis21-22c55e?style=flat-square&labelColor=0b0d12&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="mailto:smriti.iyer05@gmail.com"><img src="https://img.shields.io/badge/Email-smriti.iyer05%40gmail.com-f97316?style=flat-square&labelColor=0b0d12&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-### **🧠 Mental Health Experts**
-- Mental health professionals for therapeutic guidance
-- Crisis intervention specialists for protocol development
-- Academic researchers for evidence-based approaches
-
-### **👥 Community Support**
-- Student beta testers for valuable feedback
-- Peer supporters for platform validation
-- Educational institutions for partnership
-
-### **🏆 Competition Recognition**
-- **1st Place Winner** - Capstone Project Competition
-- Recognition for innovation in mental health technology
-- Award for social impact and technical excellence
-
----
-
-## 📞 **Support & Contact**
-
-### **🐛 Technical Support**
-- **Issues**: [GitHub Issues](https://github.com/yourusername/havenmind-link/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/havenmind-link/discussions)
-- **Documentation**: [Project Wiki](https://github.com/yourusername/havenmind-link/wiki)
-
-### **📧 Contact Information**
-- **Email**: havenmind.support@example.com
-- **LinkedIn**: [Project LinkedIn](https://linkedin.com/in/yourprofile)
-- **Twitter**: [@HavenMindLink](https://twitter.com/havenmindlink)
-
-### **🤝 Partnership Inquiries**
-- Educational institution partnerships
-- Mental health organization collaborations
-- Research and development opportunities
-- Enterprise deployment discussions
-
----
-
-<div align="center">
-
-## ⚠️ **Important Disclaimer**
-
-**If you're experiencing a mental health crisis, please reach out to professional resources immediately. This platform is designed to support, not replace, professional mental health care.**
-
----
-
-### 🌟 **Made with ❤️ for student mental health and wellbeing** 🌟
-
-**Star ⭐ this repository if you found it helpful!**
-
-[⬆️ Back to Top](#-havenmind-link---ai-sentinel-for-student-wellbeing)
-
-</div>
+<p align="center"><sub>Made with care for student mental health and wellbeing. <a href="#">Back to top</a></sub></p>
